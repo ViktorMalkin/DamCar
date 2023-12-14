@@ -82,7 +82,7 @@ header {
 	color: #fff;
 	letter-spacing: 5px;
 }
-@media (max-width: 320px) {
+@media (max-width: 425px) {
 	.text {
 	  font-size: 10px;
 	  letter-spacing: 1px;
