@@ -50,8 +50,16 @@ header {
 	text-align: center;
 	color: red;
 	font-size: 90px;
-	font-family: lobster;
+	ont-family: lobster;
+	ont-family: "Dancing Script";
+	ont-family: Whisper;
+	ont-family: Caveat;
+	ont-family: "Beau Rivage";
+	ont-family: "Great Vibes";
+	font-family: Allura;
+	font-weight: 500;
 }
+
 
 @media (max-width: 767px) {
 	.header__title {
@@ -68,24 +76,36 @@ header {
 	  font-size: 30px;
 	}
 }
+.text {
+	font-size: 20px;
+	font-family: "Akzidenz Grotesk BQ - Bd Cnd";
+	color: #fff;
+	letter-spacing: 5px;
+}
+@media (max-width: 320px) {
+	.text {
+	  font-size: 10px;
+	  letter-spacing: 1px;
+	}
+}
 .header-bottom__column--right {
 	-webkit-box-flex: 0;
 		-ms-flex: 0 0 33.333%;
 			flex: 0 0 33.333%;
 	}
-	@media (max-width: 1023px) {
-		.header-bottom-menu {
-		  padding: 0px 0px 0px 0px;
-		}
-	  }
-	  .header-bottom-menu__list {
-		display: -webkit-box;
-		display: -ms-flexbox;
-		display: flex;
-		-webkit-box-pack: justify;
-			-ms-flex-pack: justify;
-				justify-content: space-between;
-	  }
+@media (max-width: 1023px) {
+	.header-bottom-menu {
+		padding: 0px 0px 0px 0px;
+	}
+}
+.header-bottom-menu__list {
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-pack: justify;
+		-ms-flex-pack: justify;
+	justify-content: space-between;
+}
 	  @media (max-width: 1023px) {
 		.header-bottom-menu__list {
 		  display: block;
@@ -192,7 +212,34 @@ header {
 	  .content {
 
 	  }
-
+	  .oferty {
+		display: -webkit-box;
+		display: -ms-flexbox;
+		display: flex;
+		margin: 0px 0px 75px 0px;
+		background-color: #000;
+	  }
+	  @media (max-width: 745px) {
+		.oferty {
+		  -ms-flex-wrap: wrap;
+			  flex-wrap: wrap;
+			  padding: 10px 0;
+		}
+	  }
+	  
+	  .oferty__column {
+		-webkit-box-flex: 0;
+			-ms-flex: 0 0 50%;
+				flex: 0 0 33.333%;
+	  }
+	  @media (max-width: 745px) {
+		.oferty__column {
+		  -webkit-box-flex: 0;
+			  -ms-flex: 0 0 100%;
+				  flex: 0 0 100%;
+				  adding: 20px 0;
+		}
+	  }
 	  .oferty__image {
 		height: 100%;
 		overflow: hidden;
@@ -213,3 +260,82 @@ header {
 	  .ibg img {
 		display: none;
 	  }
+	  .oferty-body {
+		padding: 75px 0px 35px 60px;
+	  }
+	  @media (max-width: 745px) {
+		.oferty-body {
+		  padding: 20px 0px 20px 20px;
+		}
+	  }
+	  @media (max-width: 330px) {
+		.oferty-body {
+		  padding: 10px 0px 10px 10px;
+		}
+	  }
+	  
+	  .oferty-body__content {
+		max-width: 305px;
+	  }
+	  
+	  .oferty-body__title {
+		font-family: "Akzidenz Grotesk BQ - Bd Cnd";
+		font-size: 40px;
+		line-height: 50px;
+		font-weight: 400;
+		ext-transform: uppercase;
+		etter-spacing: 0.1em;
+		color: #ffffff;
+		margin: 0px 0px 30px 0px;
+	  }
+	  @media (max-width: 330px) {
+		.oferty-body__title {
+		  font-size: 40px;
+		  margin: 0px 0px 0px 0px;
+		}
+	  }
+	  
+	  .oferty-body__text li {
+		font-family: "Akzidenz Grotesk BQ - Bd Cnd";
+		padding: 0px 10px 25px 0px;
+		font-size: 20px;
+		ine-height: 25px;
+		color: #fff;
+	  }
+	  @media (max-width: 330px) {
+		.oferty-body__text {
+		  padding: 0px 0px 10px 0px;
+		}
+	  }
+	  
+	  .btn {
+		height: 50px;
+		line-height: 50px;
+		background-color: #000;
+		display: inline-block;
+		padding: 0px 33px;
+		font-size: 15px;
+		font-family: Bebas;
+		text-transform: uppercase;
+		color: #fff;
+		letter-spacing: 1.5px;
+	  }
+	  .btn--w {
+		background-color: #fff;
+		color: #000;
+	  }
+	  
+	  .oferty-body-buttons__link {
+		font-family: Bebas;
+		font-size: 15px;
+		text-transform: uppercase;
+		letter-spacing: 1.5px;
+		color: #fffffe;
+		margin: 0px 0px 0px 15px;
+		text-decoration: underline;
+	  }
+	  @media (max-width: 330px) {
+		.oferty-body-buttons__link {
+		  margin: 0px 0px 0px 50px;
+		}
+	  }	  
