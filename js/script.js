@@ -54,7 +54,7 @@ if (iconMenu) {
 		menuHeader.classList.toggle('_active');
 	});
 }
-
+/*
 const headerBtmColRight = document.querySelector('.header-bottom__column--right');
 const headerBtmCol = document.querySelector('.header-bottom__column');
 const headerBtm = document.querySelector('.header-bottom-menu');
@@ -93,7 +93,7 @@ window.addEventListener('resize', function(_event) {
 		}
 	}
 });
-
+*/
 
 //const ibg = document.querySelectorAll('.ibg'); {
 
